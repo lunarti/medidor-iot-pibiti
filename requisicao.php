@@ -1,13 +1,5 @@
 <?php
-	/*
-		Description: PHP code for NodeMCU project which inserts the date and two switch statuses into a MySQL database table.
-		Create a table in a database with columns: "date" (text), "c" (boolean), "v" (boolean).
-		
-		Author: Matthew W. - www.mwhprojects.com - www.github.com/mwhprojects/NodeMCU-MySQL
-	*/
-	
-	/* This PHP file is used to insert values into the database as well as display them on a webpage for you to view. The following PHP code at the top of this file is to get and insert values into the database, if the parameters are set in the URL. The PHP code later on is to display the values on the page. */
-	// Get values.
+
 
 	$pass = $_GET['pass'];
 	$mode = $_GET['m'];

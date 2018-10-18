@@ -16,7 +16,6 @@ String data="";
 //#define   ACS_MPY           15.41           // ganho/calibracao da corrente
 //double Irms = 0;
 //double a2d = 0;
-
 int idamostra = 0;
 int idregistro = 0;
 int idbackup = 0;
